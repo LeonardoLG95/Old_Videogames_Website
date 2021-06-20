@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#content{
+    float: left;
+    width: 90%;
+    margin: 5%;
+}
+
+#divFormulario{
+    font: 25px Arial, Helvetica, sans-serif;
+    float: left;
+    width: 49%;
+}
+#masImg, #masVid{
+    margin-left: 5%;
+}
+#vistaPrevia{
+    float: right;
+    width: 49%;
+}
+#ver{
+    float: left;
+    width: 100%;
+    height: 1000px;
+    display: block;
+    overflow: auto;
+}
+#verEsc{
+    width: 481px;
+}
+#verMov{
+    width: 480px;
+}
+
+/*Botones*/
+
+#bVerMov, #bVerMovPulsado{
+    margin-left: 5%;
+}
+
+.pulsado{
+    background-color: black;
+    color: white;
+}
+
+/*Ocultar*/
+
+#oculto{
+    visibility:hidden;
+}

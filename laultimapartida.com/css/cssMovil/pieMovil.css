@@ -1,0 +1,23 @@
+footer{
+    float: left;
+    width: -webkit-fill-available;
+    margin-top: 2%;
+    background-color: black;
+    padding: 5%;
+}
+footer>ul {
+    display: block;
+    margin: auto;
+}
+footer>ul>li{
+    float: left;
+    margin-right: 4%;
+}
+footer>ul>li>* {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+footer>ul>li>*:hover {
+    color: #ff7f2a
+}

@@ -1,0 +1,98 @@
+header{
+    float: left;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 10px solid #ff7f2a;
+}
+#logo{
+    float: left;
+    margin-left: 1%;
+    max-width: 50%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+#menu{
+    float: right;
+    margin-right: 1%;
+    z-index: 3;
+}
+#menu>img{
+    padding: 10px;
+}
+#menu:hover{
+    background-color: lightgrey;
+}
+#menu:hover>ul{
+    display: block;
+    right: 0;    
+}
+.icono{
+    height:1.5em;
+    margin-right: 5%; 
+}
+#menu>ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#menu>ul>li{
+    font-size:0.8em;
+    position: relative;
+    padding: 5%;
+    border-bottom: 2px solid grey;
+}
+#menu>ul>#p:hover,#menu>ul>#m:hover,#menu>ul>#b:hover{
+    background-color: #ff7f2a;
+    transition:0.3s; 
+}
+#menu>ul>#t:hover{
+    background-color: #ffd932;
+    transition:0.3s;
+}
+#menu>ul>#n:hover{
+    background-color: #ff4a43;
+    transition:0.3s;
+}
+#menu>ul>#s:hover{
+    background-color: #4ea9ff;
+    transition:0.3s;
+}
+#menu>ul>#x:hover{
+    background-color: #2fff78;
+    transition:0.3s;
+}
+#selectedP, #selectedM, #selectedB{
+    background-color: #ff7f2a;
+}
+#selectedS{
+    background-color: #4ea9ff;
+}
+#headerS{
+    border-bottom: 10px solid #4ea9ff;
+}
+#selectedN{
+    background-color: #ff4a43;
+}
+#headerN{
+    border-bottom: 10px solid #ff4a43;
+}
+#selectedX{
+    background-color: #2fff78;
+}
+#headerX{
+    border-bottom: 10px solid #2fff78;
+}
+#selectedT{
+    background-color: #ffd932;
+}
+#headerT{
+    border-bottom: 10px solid #ffd932;
+}

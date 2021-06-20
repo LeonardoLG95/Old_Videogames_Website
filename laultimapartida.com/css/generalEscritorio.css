@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    list-style-type:none;
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+}
+.contenido{
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 1000px;
+}

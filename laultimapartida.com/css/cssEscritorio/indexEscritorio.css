@@ -1,0 +1,144 @@
+#anuncioSuperior {
+    float: left;
+    width: 100%;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+hr{
+    margin-bottom: 2%;
+}
+.articulo>.borde {
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%
+}
+.articulo>.borde>#fecha {
+    float: left;
+    font-weight: 700;
+    margin-left: 1%;
+}
+.articulo>.borde>#apartado {
+    float: right;
+    font-weight: 700;
+    margin-right: 1%;
+}
+.primer {
+    float: left;
+    width: 100%;
+    margin-bottom: 4%;
+    box-shadow: 3px 3px 4px lightgrey
+}
+.primer>.articulo>img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 8%
+}
+.primer>.articulo>#titulo {
+    text-align: center;
+    margin: 2%;
+    font-size: 2em
+}
+.primer>.articulo>#sinopsis {
+    text-align: center;
+    margin: 2%;
+    font-size: 1.4em
+}
+#articulos {
+    float: left;
+    width: 60%
+}
+#articulos>article {
+    float: left;
+    margin-bottom: 8%;
+    box-shadow: 3px 3px 4px lightgrey
+}
+#articulos>article>.articulo>img {
+    float: left;
+    margin: 2%;
+    max-width: 40%
+}
+#articulos>article>.articulo>#titulo {
+    float: left;
+    margin-top: 2%;
+    max-width: 56%
+}
+#articulos>article>.articulo>#sinopsis {
+    float: left;
+    margin-top: 2%;
+    max-width: 54%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+#j>.borde {
+    background-color: #ff7f2a
+}
+#j:hover {
+    background-color: #ff7f2a
+}
+#s>.borde {
+    background-color: #4ea9ff
+}
+#s:hover {
+    background-color: #4ea9ff
+}
+#n>.borde {
+    background-color: #ff4a43
+}
+#n:hover {
+    background-color: #ff4a43
+}
+#x>.borde {
+    background-color: #2fff78
+}
+#x:hover {
+    background-color: #2fff78
+}
+#t>.borde {
+    background-color: #ffd932
+}
+#t:hover {
+    background-color: #ffd932
+}
+section {
+    float: right;
+    margin-right: 2%;
+}
+#anuncioLado1{
+    float: left;
+    width: 300px;
+    margin-bottom: 5%;
+    margin-right: 8%;
+}
+#nav {
+    float: left;
+    margin-top: 5%;
+    width: 100%
+}
+#nav>ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+#nav>ul>li>a {
+    border-bottom: 2px solid #ff7f2aff;
+    text-align: center;
+    padding: 1.25em;
+}
+.seleccionado>a{
+    color: #fff;
+    background-color: #000;
+    box-shadow: 3px 3px 4px lightgrey;
+}
+#nav>ul>li>a:hover {
+    color: #fff;
+    background-color: #ff7f2aff;
+    box-shadow: 3px 3px 4px lightgrey;
+}
+#anuncioInferior {
+    float: left;
+    width: 100%;
+    margin-top: 8%;
+}

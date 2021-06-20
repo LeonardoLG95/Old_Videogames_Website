@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <title>Formulario articulos laultimapartida.com</title>
+    <link rel="stylesheet" href="css/verEsc.css"/>
+    <link rel="stylesheet" href="css/verMov.css"/>
+    <link rel="stylesheet" href="css/formulario.css"/>
+    <script src="js/funciones.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>Formulario para subir artículos</h1>
+        <div id="divFormulario">
+            <br>
+            <form method="POST" action="https://www.laultimapartida.com/privado/subir.php" id="formulario" enctype="multipart/form-data">
+                <label for="imagen"><b>Imagen: </b></label>
+                <input type="file" id="imagen" name="imagen">
+                <br>
+                <br>
+                <label for="alt_imagen"><b>Texto alternativo de la imagen: </b></label>
+                <br>
+                <input type="text" size="50" id="alt_imagen" name="alt_imagen" placeholder="Texto alt de la imagen">
+                <br>
+                <br>
+                <label for="titulo"><b>Título: </b></label>
+                <input type="text" size="50" id="titulo" name="titulo" placeholder="Título del artículo"><br><br>
+                <label for="apartado"><b> Apartado: </b></label>
+                <select id="apartado" name="apartado">
+                    <option>Multiplataforma</option>
+                    <option>Tecnología</option>
+                    <option>Nintendo</option>
+                    <option>PlayStation</option>
+                    <option>Xbox</option>
+                </select>
+                <br>
+                <br>
+                <label for="palabras_clave"><b>Palabras clave (separadas por "," entre 2 o 3 no genéricas):</b></label>
+                <br>
+                <input type="text" size="50" id="palabras_clave" name="palabras_clave" placeholder="Videojuego,ElementoNuevo1,ElementoNuevo2">
+                <br>
+                <br>
+                <label for="sinopsis"><b>Sinopsis usar br para los espacios: </b></label>
+                <br>
+                <textarea maxlength="200" cols="60" rows="5" id="sinopsis" name="sinopsis" spellcheck="true" placeholder="Sinopsis cortita para indice y miniatura de Twitter"></textarea>
+                <br>
+                <br>
+                <label for="texto"><b>Texto usar br para los espacios: </b></label>
+                <br>
+                <textarea maxlength="65535" cols="60" rows="30" id="texto" name="texto" spellcheck="true" placeholder="Contenido del articulo"></textarea>
+                <br>
+                <br>
+                <input type="button" id="masTxt" value="Introducir párrafo">
+                <input type="button" id="masImg" value="Introducir imagen">
+                <input type="button" id="masVid" value="Introducir video">
+                <br>
+                <br>
+                <label for="video"><b>Vídeo (solo identificador): </b></label>
+                <br>
+                <input type="text" size="50" id="video" name="video" placeholder="?v= valor variable de youtube">
+                <br><br>
+                <input type="hidden" id="x" name="x" value="( ͡° ͜ʖ ͡°)">
+                <input type="hidden" id="y" name="y" value="( ͡° ͜ʖ ͡°)">
+                <input type="submit" value="Subir">
+                <input type="reset" value="Limpiar">
+            </form>
+        </div>
+        <!--Vista previa-->
+        <div id="vistaPrevia">
+            <input type="button" class="pulsado" id="bVerEsc" value="Versión escritorio">
+            <input type="button" id="bVerMov" value="Versión móvil">
+            <br>
+            <br>
+            <div id="ver">
+                <div id="verEsc">
+                    <div id="contVerEsc">
+                        <div id="minVerEsc">
+                            <div class="borde" id="j">
+                                <div id="fecha"></div>
+                                <div id="divApartado">Juegos</div>
+                            </div>
+                            <img id="imgMin">
+                            <div id="min">
+                                <h2 id="hTit"></h2>
+                                <p id="pSin"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <br><br>
+                        <hr>
+                        <div id="articulo">
+                            <div class="bordeArt" id="j">
+                                <div id="fechaArt"></div>
+                                <div id="divApartadoArt">Juegos</div>
+                            </div>
+                            <img id="imgArt">
+                            <h2 id="tituloArt"></h2>
+                            <p id="textoArt"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="oculto">
+                    <div id="contVerMov">
+                        <div id="minVerMov">
+                            <div class="bordeMov" id="j">
+                                <div id="fechaMov"></div>
+                                <div id="divApartadoMov">Juegos</div>
+                            </div>
+                            <img id="imgMinMov">
+                            <div id="minMov">
+                                <h2 id="hTitMov"></h2>
+                                <p id="pSinMov"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <br><br>
+                        <hr>
+                        <div id="articuloMov">
+                            <div class="bordeArtMov" id="j">
+                                <div id="fechaArtMov"></div>
+                                <div id="divApartadoArtMov">Juegos</div>
+                            </div>
+                            <img id="imgArtMov">
+                            <h2 id="tituloArtMov"></h2>
+                            <p id="textoArtMov"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

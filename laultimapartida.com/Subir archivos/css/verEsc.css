@@ -1,0 +1,101 @@
+/*Cuerpo*/
+
+#verEsc{
+    text-decoration: none;    
+}
+#verEsc p{
+    font: 400 14px/18px Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+#verEsc h2{
+    font: 400 18px/20px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+#texto ul, #texto ol{
+    font: 400 18px/20px Arial, Helvetica, sans-serif;
+    line-height: 26px;
+}
+/*Articulos*/
+
+#t{
+    background-color: #ffd932;
+}
+#n{
+    background-color: #ff4a43;
+}
+#s{
+    background-color: #4ea9ff;
+}
+#x{
+    background-color: #2fff78;
+}
+#j{
+    background-color: #ff7f2aff;
+}
+
+/*Reglas compartidas Miniatura escritorio y Articulo Escritorio*/
+
+#minVerEsc, #articulo{
+    float: left;
+    width: 400px;
+}
+#fecha, #fechaArt{
+    float: left;
+    margin-left: 2%;
+}
+#divApartado, #divApartadoArt{
+    float: right;
+    margin-right: 2%;
+}
+.borde, .bordeArt{
+    float: left;
+    font-weight: bold;
+    width: 400px;
+    min-height: 50%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 2%;
+}
+
+/*-----Miniatura escritorio-----------*/
+
+#imgMin{
+    float: left;
+    max-width: 100px;
+    box-shadow: 1px 1px 4px grey;
+    margin-left: 10px;
+    margin-top: 1.2%;
+}
+#min{
+    float:right;
+    max-width: 270px;
+}
+
+/*-------------hr---------------*/
+hr{
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 400px;
+}
+
+/*-----Articulo escritorio-----*/
+#imgArt{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#tituloArt{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+
+#textoArt{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+}

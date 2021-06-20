@@ -1,0 +1,118 @@
+article{
+    float: left;
+    width: 100%;
+}
+main{
+    padding-top: 20%;
+}
+article{
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 10%;
+}
+.articulo>.borde{
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+}
+#j>.borde {
+    background-color: #ff7f2a
+}
+#j:hover {
+    background-color: #ff7f2a
+}
+#s>.borde {
+    background-color: #4ea9ff
+}
+#s:hover {
+    background-color: #4ea9ff
+}
+#n>.borde {
+    background-color: #ff4a43
+}
+#n:hover {
+    background-color: #ff4a43
+}
+#x>.borde {
+    background-color: #2fff78
+}
+#x:hover {
+    background-color: #2fff78
+}
+#t>.borde {
+    background-color: #ffd932
+}
+#t:hover {
+    background-color: #ffd932
+}
+.articulo>.borde>#fecha{
+    float: left;
+    margin: 1%;
+}
+.articulo>.borde>#apartado{
+    float: right;
+    margin: 1%;
+}
+article>.articulo>img{
+    float: left;
+    max-width: 50%;
+    box-shadow: 2px 2px 4px lightgrey;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+#titulo{
+    float: left;
+    margin-left: 3%;
+    max-width: 43%;
+    font-size: 1.2rem;
+}
+#sinopsis{
+    float: left;
+    margin-left: 3%;
+    max-width: 43%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: .95em;
+    display: none;
+}
+@media only screen and (orientation: landscape) {
+    #sinopsis{
+        display: inherit;
+    }
+}
+#nav{
+    float: left;
+    font-size: 98%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+#nav>ul{
+    display: flex;
+    justify-content: center;
+}
+#nav>ul>li{
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    width: 8.2%;
+    border-bottom: 2px solid #ff7f2a;
+}
+#nav>ul>li:hover{
+    color: #fff;
+    background-color: #ff7f2a;
+    box-shadow: 3px 3px 4px lightgrey;
+}
+.seleccionado{
+    background-color: #000;
+    box-shadow: 3px 3px 4px lightgrey;
+}
+.seleccionado>a{
+    color: #fff;
+}
+#anuncioM1, #anuncioM2, #anuncioM3{
+    float: left;
+    margin-left: 1%;
+    width: 98%;
+    margin-bottom: 10%;
+}

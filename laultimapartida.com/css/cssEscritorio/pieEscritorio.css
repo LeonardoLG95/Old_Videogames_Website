@@ -1,0 +1,33 @@
+footer {
+    float: left;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+    margin-top: 2%;
+    background-color: #000
+}
+
+footer>ul {
+    display: block;
+    margin: auto;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    max-width: 1200px;
+    min-width: 1000px;
+}
+
+footer>ul>li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+    float: left
+}
+
+footer>ul>li>* {
+    font-weight: 700;
+    color: #fff
+}
+
+footer>ul>li>*:hover {
+    color: #ff7f2a
+}
